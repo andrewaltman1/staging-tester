@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nv-cmd -e prod node index.js",
+    "start": "env-cmd -e prod node index.js",
     "dev": "env-cmd -e dev nodemon index.js",
     "prod": "npm run prod:stop && npm run prod:start",
     "prod:stop": "forever stop altfun",
