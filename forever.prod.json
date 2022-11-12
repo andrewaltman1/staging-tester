@@ -1,7 +1,0 @@
-{
-    "uid": "altfun",
-    "script": "./index.js",
-    "append": true,
-    "minUptime": "1000ms",
-    "spinSleepTime": 0
-}
