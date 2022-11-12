@@ -6,7 +6,7 @@ const express = require("express");
 const ejsMate = require("ejs-mate");
 const path = require("path");
 const app = express();
-const port = 443;
+const port = process.env.ALTFUN_PORT;
 
 app.engine("ejs", ejsMate);
 app.use(express.urlencoded({ extended: true }));
